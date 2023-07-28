@@ -17,6 +17,7 @@ function getUserData() {
 			},
 		])
 		.then((answers) => {
+			console.log(answers);
 			if (answers.text.length > 3) {
 				console.log("Error: Text Greater Than 3 Characters");
 				return;
