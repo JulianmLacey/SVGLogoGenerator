@@ -1,10 +1,10 @@
-# Command Line README Generator
+# Command Line SVG Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-This application creates a SVG Image based on the user input in the terminal
+This application creates an SVG Image based on the user input in the terminal
 
 ## User Story
 
@@ -32,6 +32,11 @@ The following animation demonstrates the application functionality:
 
 ![Mockup](./lib/images/mockup1.png)
 ![Mockup](./lib/images/mockup2.png)
+
+https://github.com/JulianmLacey/SVGLogoGenerator/assets/117090683/04da29df-cd1d-4283-83dd-3abfb5f08781
+
+https://github.com/JulianmLacey/SVGLogoGenerator/assets/117090683/476daeb3-8ab5-40aa-a4df-40142ce69851
+
 
 ## Live Demo
 
