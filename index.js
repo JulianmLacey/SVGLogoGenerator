@@ -25,4 +25,5 @@ function getUserData() {
 			shapes.generateSVG(answers);
 		}); //pass answers to file generation
 }
+
 getUserData();
