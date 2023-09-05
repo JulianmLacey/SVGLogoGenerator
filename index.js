@@ -1,6 +1,6 @@
 var inquirer = require("inquirer");
 
-const shapes = require("./lib/shapes");
+const shape = require("./lib/shapes");
 
 function getUserData() {
 	//Prompt User
@@ -22,7 +22,9 @@ function getUserData() {
 				console.log("Error: Text Greater Than 3 Characters");
 				return;
 			}
-			shapes.generateSVG(answers);
+			console.log("Generating SVG...");
+			const shp = new shape();
+			shp.generateSVG(answers);
 		}); //pass answers to file generation
 }
 
